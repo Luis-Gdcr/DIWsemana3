@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Currículo — Luís Felipe Guimarães</title>
+  <meta name="description" content="Currículo em HTML/CSS de Luís Felipe Guimarães" />
+
+  <!-- Fonte (substitua se preferir) -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="projetos.html">Projetos</a></li>
+        <li><a href="portfolio.html">Portfólio</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <article class="cv-wrap" role="article" aria-label="Currículo">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar" aria-label="Informações pessoais">
+      <div class="photo" aria-hidden="true">
+        <img src="fotominha.png" alt="Foto de Luís Felipe" style="width:100%;height:100%;object-fit:cover;border-radius:10px;"/>
+      </div>
+      <div class="profile">
+        <div class="name">Luís Felipe Guimarães da Cunha Romañach</div>
+        <div class="role">Desenvolvedor Back-End</div>
+      </div>
+
+      <div class="contact">
+        <h3>Contato</h3>
+        <p><strong>Email:</strong> <br><a href="mailto:luis@gmail.com">luis@gmail.com</a></p>
+        <p><strong>Telefone:</strong> <br><a href="tel:+5531967676767">+55 (31) 96767-6767</a></p>
+        <p><strong>Localização:</strong> <br>Belo Horizonte, Brasil</p>
+
+        <div style="margin-top:10px">
+          <a class="muted" href="https://linkedin.com/in/luis">LinkedIn</a>
+        </div>
+      </div>
+
+      <div class="section">
+        <h3>Competências</h3>
+        <div class="skill-list">
+          <span class="skill">HTML5</span>
+          <span class="skill">CSS3</span>
+          <span class="skill">JavaScript</span>
+          <span class="skill">Rust</span>
+          <span class="skill">UE5</span>
+        </div>
+      </div>
+
+      <div class="section">
+        <h3>Idiomas</h3>
+        <p class="muted">Português — Nativo</p>
+        <p class="muted">Inglês — Nativo</p>
+      </div>
+
+      <div class="section">
+        <h3>Interesses</h3>
+        <span class="tag">VR/AR</span>
+        <span class="tag">Interfaces Neurais (BCI)</span>
+        <span class="tag">IOT</span>
+      </div>
+
+    </aside>
+
+    <!-- MAIN -->
+    <main class="main">
+      <header class="headline">
+        <div>
+          <h2 style="margin:0">Luís Felipe Guimarães</h2>
+          <div class="muted">Desenvolvedor Back-End apaixonado por tecnologias não convencionais e experimentais</div>
+        </div>
+        <div style="text-align:right">
+          <div class="muted">Disponível para trabalho remoto ou presencial</div>
+        </div>
+      </header>
+
+      <section class="summary item">
+        <h3>Resumo profissional</h3>
+        <p class="desc">Profissional com experiência em pesquisa e desenvolvimento Back-end</p>
+      </section>
+
+      <section class="experience item">
+        <h3>Experiência</h3>
+
+        <div class="exp-row">
+          <div class="meta">
+            <div>
+              <h4>Argus Software - Sword art Online</h4>
+              <div class="muted">2022 — Presente</div>
+            </div>
+            <div class="muted">Tokyo</div>
+          </div>
+          <p class="desc">Otimização e compatibilidade com o hardware NerveGear</p>
+        </div>
+
+        <div class="exp-row">
+          <div class="meta">
+            <div>
+              <h4>Monogon Industries - MythOS</h4>
+              <div class="muted">2020 — 2022</div>
+            </div>
+            <div class="muted">Remoto</div>
+          </div>
+          <p class="desc">Desenvolvimento de soluções para a responsividade de sistemas avançados de simulação de física em tempo real.</p>
+        </div>
+      </section>
+
+      <section class="item">
+        <h3>Educação</h3>
+        <div style="margin-top:8px">
+          <h4>PUC Minas — Ciência da Computação</h4>
+          <div class="muted">2026 — 2029</div>
+          <p class="desc">Projetos para o uso abrangente de AI agregado a novas tecnologias de computação espacial.</p>
+        </div>
+      </section>
+
+      <section class="item">
+        <h3>Projetos / Portfólio</h3>
+        <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(180px,1fr)); gap:12px; margin-top:10px">
+          <div style="padding:10px; border-radius:8px; border:1px solid rgba(15,23,42,0.04)">
+            <strong>Portfólio Pessoal</strong>
+            <p class="muted"><a href="https://portifolio-luis.com">meuportfolio.com</a></p>
+          </div>
+          <div style="padding:10px; border-radius:8px; border:1px solid rgba(15,23,42,0.04)">
+            <strong>Projeto Oasis</strong>
+            <p class="muted">Aplicação das tecnologias de imersão AR/VR em uma plataforma UGC</p>
+          </div>
+        </div>
+      </section>
+
+      <footer style="margin-top:22px; border-top:1px dashed rgba(15,23,42,0.04); padding-top:12px">
+        <div class="muted">Disponível para entrevistas — referências mediante solicitação.</div>
+      </footer>
+
+    </main>
+  </article>
+</body>
+</html>
