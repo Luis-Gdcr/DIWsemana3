@@ -3,8 +3,8 @@
 # template-diw-20251-semana-02
 
 ## Informações Gerais
-- Nome: João Pedro Fernandes Lopes
-- Matricula:880055
+- Nome: Luís Felipe Guimarães da Cunha Romanach
+- Matricula:835515
 
 ## Print da tela da página criada (Curriculum Vitae)
 ![curriculo](curriculo.png)
